@@ -1,0 +1,24 @@
+hr.hrRounded{
+    border: 5px solid $small-text; 
+    margin: 10px; 
+    border-radius: 20px;
+    opacity: 100;
+    margin-top: -5px;
+}
+
+.indexImportant-title{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: $big-title;
+    font-weight: bold;
+}
+
+.popularProducts{
+    background-color: $light-bg;
+}
+
+.backToTop{
+    right: 25px;
+    bottom: 10vh;
+}
