@@ -16,14 +16,14 @@
 
 // Imports:
 @import './Sections/index';
-@import './Sections/pants';
-@import './Sections/shirts';
+@import './Sections/products.scss';
+@import './Sections/pants.scss';
 @import './Sections/shoes';
+@import './Sections/shirts';
 
 .navbar-brand{
     span{
         font-family: "Eras Bold ITC", sans-serif;
-        border-radius: 15px;
         padding: 5px;
         font-size: 30px;
     }
@@ -90,4 +90,49 @@
 
 .siteFooter-inner{
     color: white;
+}
+
+.siteFooter-brand{
+    h5{
+        font-family: "Eras Bold ITC", sans-serif;
+        font-size: 40px; 
+        color:#EDF2F4; 
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 768px){
+    .siteFooter-brand{
+        padding: 30px;
+
+        h5{
+                font-size: 70px;
+        }
+    }
+
+    .siteFooter-inner{
+        flex-direction: row;
+        justify-content: space-around;
+
+        h5{
+            font-size: 30px;
+        }
+
+        h3{
+            font-size: 20px;
+        }
+
+        div{
+            padding: 0px;
+        }
+    }
+}
+
+@media (min-width: 1440px){
+    .siteFooter-brand{
+        h5{
+            font-size: 100px;
+            padding-top: 0px;
+        }
+    }
 }

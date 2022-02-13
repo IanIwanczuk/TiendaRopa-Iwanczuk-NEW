@@ -1,0 +1,15 @@
+.parallax-bg.--pants{
+    background-image: url(https://images.pexels.com/photos/7623520/pexels-photo-7623520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+@media (min-width: 768px){
+    .parallax-bg.--pants{
+        background-image: url(https://images.pexels.com/photos/8005272/pexels-photo-8005272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+}
+
+
+// --------DESKTOP--------
+// background-image: url(https://images.pexels.com/photos/8005272/pexels-photo-8005272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+// -------- MOBILE -------
+// background-image: url(https://images.pexels.com/photos/7623520/pexels-photo-7623520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);

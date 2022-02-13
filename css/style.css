@@ -30,9 +30,134 @@ hr.hrRounded {
   right: 25px;
   bottom: 10vh; }
 
+div.carouselDesktop {
+  display: none;
+  z-index: -999; }
+
+.siteFooter-inner {
+  display: flex;
+  flex-direction: column; }
+  .siteFooter-inner h3 {
+    font-size: 15px;
+    font-weight: lighter; }
+  .siteFooter-inner div {
+    padding: 5px 0px; }
+
+div.card-group.container-fluid.desktopView {
+  display: none; }
+
+.submitComment {
+  background-image: url(../images/submit-background.jpg);
+  background-size: cover;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; }
+  .submitComment h5 {
+    font-family: "Eras Bold ITC", sans-serif;
+    font-size: 40px;
+    color: white; }
+
+.submitComment-input {
+  background-color: #f3a182;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px; }
+
+.submitComment-box {
+  border: 5px solid transparent;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px; }
+  .submitComment-box.--message {
+    height: 20vh; }
+
+.submitComment-send {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #e9ff70;
+  border-radius: 50px;
+  border: none;
+  outline: none; }
+
+.submitComment-box.--message:focus, .submitComment-box:focus {
+  outline: none;
+  background-color: #ffdbcc;
+  transition: 0.3s ease; }
+
+@media (min-width: 768px) {
+  div.carouselDesktop {
+    display: block; }
+  div.carouselMobile {
+    display: none; }
+  h5.card-title.product-title {
+    font-weight: 400; }
+  div.card-group.container-fluid.desktopView {
+    display: flex;
+    flex-flow: row wrap; }
+  .submitComment {
+    flex-direction: row; }
+    .submitComment h5 {
+      font-size: 55px; }
+  .submitComment-input {
+    width: 45%;
+    margin: 20px 0px; } }
+
+@media (min-width: 1440px) {
+  .submitComment h5 {
+    font-size: 90px; }
+  .submitComment-input {
+    width: 30%;
+    margin: 20px 0px; }
+  .submitComment-box {
+    height: 50px; } }
+
+.parallax-bg {
+  background-position: center;
+  background-attachment: fixed;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .parallax-bg h5 {
+    font-size: 50px;
+    color: white;
+    font-family: "Eras Bold ITC"; }
+
+@media (min-width: 768px) {
+  .parallax-bg {
+    height: 100vh; }
+    .parallax-bg h5 {
+      font-size: 120px; } }
+
+.parallax-bg.--pants {
+  background-image: url(https://images.pexels.com/photos/7623520/pexels-photo-7623520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); }
+
+@media (min-width: 768px) {
+  .parallax-bg.--pants {
+    background-image: url(https://images.pexels.com/photos/8005272/pexels-photo-8005272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); } }
+
+.parallax-bg.--shoes {
+  background-image: url(https://images.pexels.com/photos/1027130/pexels-photo-1027130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); }
+
+@media (min-width: 768px) {
+  .parallax-bg.--shoes {
+    background-image: url(https://images.pexels.com/photos/267320/pexels-photo-267320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); } }
+
+.parallax-bg.--shirts {
+  background-image: url(https://images.pexels.com/photos/4066288/pexels-photo-4066288.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); }
+
+@media (min-width: 768px) {
+  .parallax-bg.--shirts {
+    background-image: url(https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); } }
+
 .navbar-brand span {
   font-family: "Eras Bold ITC", sans-serif;
-  border-radius: 15px;
   padding: 5px;
   font-size: 30px; }
 
@@ -86,3 +211,29 @@ hr.hrRounded {
 
 .siteFooter-inner {
   color: white; }
+
+.siteFooter-brand h5 {
+  font-family: "Eras Bold ITC", sans-serif;
+  font-size: 40px;
+  color: #EDF2F4;
+  padding-top: 20px; }
+
+@media (min-width: 768px) {
+  .siteFooter-brand {
+    padding: 30px; }
+    .siteFooter-brand h5 {
+      font-size: 70px; }
+  .siteFooter-inner {
+    flex-direction: row;
+    justify-content: space-around; }
+    .siteFooter-inner h5 {
+      font-size: 30px; }
+    .siteFooter-inner h3 {
+      font-size: 20px; }
+    .siteFooter-inner div {
+      padding: 0px; } }
+
+@media (min-width: 1440px) {
+  .siteFooter-brand h5 {
+    font-size: 100px;
+    padding-top: 0px; } }
