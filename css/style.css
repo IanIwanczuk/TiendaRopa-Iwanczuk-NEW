@@ -211,6 +211,10 @@ div.card-group.container-fluid.desktopView {
 
 .siteFooter-inner {
   color: white; }
+  .siteFooter-inner .text-start a {
+    text-decoration: none; }
+    .siteFooter-inner .text-start a:visited {
+      color: white; }
 
 .siteFooter-brand h5 {
   font-family: "Eras Bold ITC", sans-serif;

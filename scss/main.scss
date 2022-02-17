@@ -90,6 +90,14 @@
 
 .siteFooter-inner{
     color: white;
+    .text-start{
+        a{
+            text-decoration: none;
+            &:visited{
+                color: white;
+            }
+        }
+    }
 }
 
 .siteFooter-brand{
