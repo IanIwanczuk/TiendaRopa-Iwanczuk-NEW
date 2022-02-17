@@ -3,3 +3,27 @@ $big-title: #2B2D42;
 $small-text: #8D99AE;
 $navbar-bg: #D80032;
 $navbar-hover: #EF233C;
+
+@mixin parallax-bg-products {
+    background-position: center;
+    background-attachment: fixed;
+    height: 60vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h5{
+       font-size: 50px;
+       color: white;
+       font-family: "Eras Bold ITC";
+    }
+}
+
+@mixin roundedDivisor {
+    border: 5px solid $small-text; 
+    margin: 10px; 
+    border-radius: 20px;
+    opacity: 100;
+    margin-top: -5px;
+}

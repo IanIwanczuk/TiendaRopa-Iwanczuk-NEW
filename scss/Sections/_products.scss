@@ -1,17 +1,5 @@
 .parallax-bg{
-    background-position: center;
-    background-attachment: fixed;
-    height: 60vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    h5{
-       font-size: 50px;
-       color: white;
-       font-family: "Eras Bold ITC";
-    }
+    @include parallax-bg-products;
 }
 
 @media (min-width: 768px){
