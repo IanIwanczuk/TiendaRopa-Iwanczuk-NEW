@@ -34,17 +34,11 @@ div.carouselDesktop {
   display: none;
   z-index: -999; }
 
-.siteFooter-inner {
-  display: flex;
-  flex-direction: column; }
-  .siteFooter-inner h3 {
-    font-size: 15px;
-    font-weight: lighter; }
-  .siteFooter-inner div {
-    padding: 5px 0px; }
-
 div.card-group.container-fluid.desktopView {
   display: none; }
+
+h1.card-title.product-title {
+  font-size: 1.25rem; }
 
 .submitComment {
   background-image: url(../images/submit-background.jpg);
@@ -95,7 +89,7 @@ div.card-group.container-fluid.desktopView {
     display: block; }
   div.carouselMobile {
     display: none; }
-  h5.card-title.product-title {
+  h1.card-title.product-title {
     font-weight: 400; }
   div.card-group.container-fluid.desktopView {
     display: flex;
@@ -124,7 +118,7 @@ div.card-group.container-fluid.desktopView {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .parallax-bg h5 {
+  .parallax-bg h1 {
     font-size: 50px;
     color: white;
     font-family: "Eras Bold ITC"; }
@@ -132,7 +126,7 @@ div.card-group.container-fluid.desktopView {
 @media (min-width: 768px) {
   .parallax-bg {
     height: 100vh; }
-    .parallax-bg h5 {
+    .parallax-bg h1 {
       font-size: 120px; } }
 
 .parallax-bg.--pants {
@@ -210,13 +204,20 @@ div.card-group.container-fluid.desktopView {
   height: 35vh; }
 
 .siteFooter-inner {
-  color: white; }
+  color: white;
+  display: flex;
+  flex-direction: column; }
+  .siteFooter-inner h3 {
+    font-size: 15px;
+    font-weight: lighter; }
+  .siteFooter-inner div {
+    padding: 5px 0px; }
   .siteFooter-inner .text-start a {
     text-decoration: none; }
     .siteFooter-inner .text-start a:visited {
       color: white; }
 
-.siteFooter-brand h5 {
+.siteFooter-brand h1 {
   font-family: "Eras Bold ITC", sans-serif;
   font-size: 40px;
   color: #EDF2F4;
@@ -225,7 +226,7 @@ div.card-group.container-fluid.desktopView {
 @media (min-width: 768px) {
   .siteFooter-brand {
     padding: 30px; }
-    .siteFooter-brand h5 {
+    .siteFooter-brand h1 {
       font-size: 70px; }
   .siteFooter-inner {
     flex-direction: row;
@@ -238,6 +239,6 @@ div.card-group.container-fluid.desktopView {
       padding: 0px; } }
 
 @media (min-width: 1440px) {
-  .siteFooter-brand h5 {
+  .siteFooter-brand h1 {
     font-size: 100px;
     padding-top: 0px; } }

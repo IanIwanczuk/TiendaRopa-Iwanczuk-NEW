@@ -90,6 +90,18 @@
 
 .siteFooter-inner{
     color: white;
+    display: flex;
+    flex-direction: column;
+
+    h3{
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+    div{
+        padding: 5px 0px;
+    }
+    
     .text-start{
         a{
             text-decoration: none;
@@ -101,7 +113,7 @@
 }
 
 .siteFooter-brand{
-    h5{
+    h1{
         font-family: "Eras Bold ITC", sans-serif;
         font-size: 40px; 
         color:#EDF2F4; 
@@ -113,7 +125,7 @@
     .siteFooter-brand{
         padding: 30px;
 
-        h5{
+        h1{
                 font-size: 70px;
         }
     }
@@ -138,7 +150,7 @@
 
 @media (min-width: 1440px){
     .siteFooter-brand{
-        h5{
+        h1{
             font-size: 100px;
             padding-top: 0px;
         }

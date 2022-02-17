@@ -24,20 +24,12 @@ div.carouselDesktop{
     z-index: -999;
 }
 
-.siteFooter-inner{
-    display: flex;
-    flex-direction: column;
-    h3{
-        font-size: 15px;
-        font-weight: lighter;
-    }
-    div{
-        padding: 5px 0px;
-    }
-}
-
 div.card-group.container-fluid.desktopView{
     display: none;
+}
+
+h1.card-title.product-title{
+    font-size: 1.25rem;
 }
 
 // ----------- SUBMIT COMMENT WINDOW ----------- //
@@ -103,7 +95,7 @@ div.card-group.container-fluid.desktopView{
         display: none;
     }
 
-    h5.card-title.product-title{
+    h1.card-title.product-title{
         font-weight: 400;
     }
 
